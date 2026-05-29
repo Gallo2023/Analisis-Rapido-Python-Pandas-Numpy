@@ -1,5 +1,5 @@
 # Analisis-Rapido-Python-Pandas-Numpy
-Estructura Base EDA
+Estructura Base EDA/ETL
 
 ## 📊 Ejemplo Aplicacion Pareto Excel
 
