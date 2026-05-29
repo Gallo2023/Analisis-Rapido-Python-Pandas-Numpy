@@ -1,25 +1,26 @@
 # Analisis-Rapido-Python-Pandas-Numpy
 Estructura Base EDA/ETL
 
-## 📊 Ejemplo Aplicacion Pareto Excel
+## 📊 Analisis Exploratorio Datos + ETL
 
-A partir de este ejemplo en excel, partiendo de algunos datos recolectados sobre productos defectuosos detectados
-en un proceso de fabricacion, aplicamos el principio de Pareto para determinar que el 20% de algunos produtos (4)
-son las causas el 80% de los productos defectuosos encontrados en un lapso de tiempo determinado.
-Gracias a este analisis rapido podemos enfocar controles de calidad y modificaciones en esos productos causantes
-de la mayor parte del problema planteado.
+A partir de un archivo plano .csv con datos y caracteristicas de un grupo de automoviles.
+Se realiza un proceso básico de analisis exploratorio de datos y algunas procesos ETL,
+usando las librerias Pandas y Numpy.
 
-## 🖼️ Concepto
+## 🖼️ Descripcion del proceso desplegado:
 
-<img src="./DiagramaPareto01.png" width="500"/>
-
-## 🖼️ Vista previa
-
-<img src="./EjParetoProd.png" width="500"/>
+Inicialmente a traves de la libreria Pandas, se realiza la lectura y carga del archivo .csv en un dataframe.
+Mediante el Dataframe generado, con las funciones shape(), head() e info(), obtengo una vista preliminar de las
+dimensiones, caracteristicas, campos y tipos de dato de la informacion disponible para analizar.
+Adicionalmente con la libreria Pandas, disponemos de funciones to_numeric, isna(), sum(), fillna(), mean(), etc,
+podemos realizar algunas transformaciones basicas para limpiar y ordenar la informacion
+Finalmente con ayuda de la libreria Numpy, podemos hacer calculos estadisticos fundamentales, con funciones como
+mean(), median(), std(), min(), max(), etc
 
 ## 🚀 Tecnologías
-- Microsoft Excel (grafico de pareto y/o grafico de barras combinado adaptado).
-- Principio de Pareto (analisis ABC).
+- Archivos Planos .csv (es posible tratarlo inicialmente con Excel)
+- Lenguaje Python auxiliado con librerias Pandas y Numpy
+- Edicion de codigo con JupyterLab
 
 #### 👨‍💻 Author
 ###### Gabriel Gallardo
